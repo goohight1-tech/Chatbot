@@ -1,5 +1,5 @@
 export enum ChatMode {
-  Standard = 'Standard Chat (Gemini 3 Pro)',
+  Standard = 'Standard Chat (Gemini 2.5 flash)',
   SearchGrounded = 'Search Grounded (Real-time Search with Gemini 3 Flash)',
   FastResponse = 'Fast Response (Gemini Flash Lite)',
 }
