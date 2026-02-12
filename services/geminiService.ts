@@ -53,7 +53,7 @@ export const geminiService = {
   // Handles text-only and multi-modal content with Gemini 3 Pro
   async generateContentStandard(prompt: string, fileData?: { data: string; mimeType: string }): Promise<{ text: string; sources?: ToolSource[] }> {
     const ai = this.getGenAIClient();
-    const model = 'gemini-3-pro-preview';
+    const model = 'gemini-2.5-flash';
 
     const parts: Part[] = [{ text: prompt }];
 
