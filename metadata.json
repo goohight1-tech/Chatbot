@@ -1,0 +1,5 @@
+{
+  "name": "Intelligent AI Chatbot",
+  "description": "An AI chatbot that can process uploaded files, chat with users, leverage Google Search data, and provide fast responses using various Gemini models.",
+  "requestFramePermissions": []
+}
